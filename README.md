@@ -123,7 +123,7 @@ In order to have your code accepted back into the original repo, you'll need to 
 8. Submit the Pull Request:
     - Click the **Create Pull Request** button.
   
-### 5. Review & Accept another person's Pull Request
+### 5. Review, Provide Feedback, and Accept another person's Pull Request
 
 1. Review one other person's pull request and look at their code that they want to merge into the main branch. [The Github documentation on pull requests will help you learn how to do this.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews)
 2. Add a comment to their pull request and provide feedback about their proposed changes. This is an opportunity to practice talking about code and giving respectful and constructive feedback: if you notice something cool or admirable, tell them! Or if you notice something they can improve or something they should fix before the pull request can be approved, let them know. 
@@ -132,3 +132,19 @@ In order to have your code accepted back into the original repo, you'll need to 
 ### If you get a merge conflict error
 ![image](https://github.com/user-attachments/assets/7aa14ba9-cb3c-4cab-8832-18ffdbe2ccc2)
 Congrats on encountering your very first merge conflict error! Very cool 🎉 [Check out this article to see how you can fix it](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github)! 
+
+## Recap
+
+Let’s review what we did in this workshop:
+
+- Fork - Make a copy of a remote repo to another remote repo
+- Clone - Make a copy of a remote repo to our local machine
+- Branch checkout - Create a new branch, allows us to work on our entire project in a separate workstream
+- Add, Commit + Push our changes to our `new-feature` branch
+- Switch back into the `main` branch
+- Pull the code on the `main` branch to make sure we are all up to date
+- Merged `new-feature` branch code into `main` branch
+- Push `main` branch changes to remote repo
+- Submitted a pull request to have code accepted back into original repo. Someone else will review our pull request. 
+- Review and add comments/feedback to someone else's pull request
+- Approved and merged someone else's pull request 
