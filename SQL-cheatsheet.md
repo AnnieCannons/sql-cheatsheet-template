@@ -10,7 +10,7 @@ Description:
 
 Example Values:
 
-### 2. `NUMERIC` — assigned to Bakari
+### 2. `DECIMAL` — assigned to Bakari
 
 Description:
 
