@@ -2,7 +2,7 @@
 
 ---
 
-## ⚙️ PostgreSQL Constraints
+## 💠 PostgreSQL Constraints 
 
 ### 1. `PRIMARY KEY`
 
@@ -10,7 +10,7 @@ Description: Specifies that this column uniquely identifies each row/record in a
 
 ### 2. `NOT NULL`
 
-Description: Ensures that a column cannot have NULL value.	
+Description: Ensures that a column cannot have a NULL value.	
 
 ### 3. `UNIQUE`
 
@@ -18,7 +18,7 @@ Description: Ensures that all values in a column are different.
 
 ---
 
-## ⚙️ PostgreSQL Data Types
+## 💠 PostgreSQL Data Types 
 
 ### 1. `INTEGER` — assigned to Andy
 
