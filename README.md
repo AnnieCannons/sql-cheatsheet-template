@@ -55,7 +55,6 @@ In addition to reviewing your SQL knowledge, in this process you will also pract
     
     - This command will open up a lightweight text editor called LESS, which is an application that lives within the terminal.
     - To exit LESS and go back to the command line, press the `q` key on your keyboard. You may have to press `q` multiple times.
-    - ![image](https://github.com/user-attachments/assets/9477b5a4-da9c-4cdb-9e0f-7851a90aa25e)
 
 3. Make sure you’ve switched to your new branch on VS Code
    - In the bottom left corner of VS Code, you should see the name of your new branch “new-feature”. This indicates that you have switched to your new branch on VS Code.
