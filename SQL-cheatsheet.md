@@ -2,6 +2,22 @@
 
 ---
 
+## PostgreSQL Constraints
+
+### 1. `PRIMARY KEY`
+
+Description: Specifies that this column uniquely identifies each row/record in a database table.	
+
+### 2. `NOT NULL`
+
+Description: Ensures that a column cannot have NULL value.	
+
+### 3. `UNIQUE`
+
+Description: Ensures that all values in a column are different.	
+
+---
+
 ## PostgreSQL Data Types
 
 ### 1. `INTEGER` — assigned to Andy
