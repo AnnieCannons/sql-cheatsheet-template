@@ -4,13 +4,40 @@ In the SQL-cheatsheet.md file, you will see several SQL-related terms. Some have
 
 In addition to reviewing your SQL knowledge, in this process you will also practice making and merging Git branches, editing Markdown, submitting a pull request, and reviewing one of your classmates' pull requests. 
 
+## **Workshop Objectives**
+
+1. Understand the concept of **branches** in Git.
+2. Learn to create, switch, and manage branches.
+3. Use GitHub to open and review **pull requests** (PRs).
+
+## **Where we are now**
+
+1. Basic familiarity with Git and GitHub (e.g., cloning, committing, and pushing changes).
+2. Git installed on local machines.
+3. GitHub accounts and access to a shared repository.
+4. A code editor (e.g., VS Code).
+
+## Resources
+
+1. [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+2. [GitHub flow - GitHub Docs](https://docs.github.com/en/get-started/using-github/github-flow)
+
+---
 
 ## Instructions
 
-### 1. Forking and cloning a Github repo
+### 1. Forking this Github repo
 
-1. Fork this Repository
-2. Clone the Repository
+1. Fork this Repository to make a copy into your Github account
+2. Clone the Repository into your local machine
+    - Go to your Github repo's page on GitHub. Click on the green “Code” button and copy the repo's URL
+        ![image](https://github.com/user-attachments/assets/fd6fcf7f-9246-42da-80be-0c4d75c3f48a)
+
+        
+    - Open the Terminal
+    - `cd` to into your `dev` folder, which is where you want to clone the repo
+    - Type `git clone YOUR_REPO_URL` , replacing `YOUR_REPO_URL` with your Github repo link that you copied
+    - Press Enter to run the command. Now you’ve cloned your Github repo! 🎉
 
 ### 2. Making a new branch in your Github repo
 
@@ -28,7 +55,12 @@ In addition to reviewing your SQL knowledge, in this process you will also pract
     
     - This command will open up a lightweight text editor called LESS, which is an application that lives within the terminal.
     - To exit LESS and go back to the command line, press the `q` key on your keyboard. You may have to press `q` multiple times.
-    
+    - ![image](https://github.com/user-attachments/assets/9477b5a4-da9c-4cdb-9e0f-7851a90aa25e)
+
+3. Make sure you’ve switched to your new branch on VS Code
+   - In the bottom left corner of VS Code, you should see the name of your new branch “new-feature”. This indicates that you have switched to your new branch on VS Code.
+   - If it says “main” instead of “new-feature”, that means you are currently on the main branch. Click on the branch name to switch the branch you’re on in VS Code.
+   - From now on, you should always check which branch you’re in before you write any code — you don’t want to accidentally write code in the wrong branch! Generally, you only write code in a feature branch or a develop branch, never in the main branch.
 
 ### 3. Edit the SQL-cheatsheet.md file in your `new-feature` branch
 
@@ -65,9 +97,8 @@ In addition to reviewing your SQL knowledge, in this process you will also pract
 4. Push the Merged Changes to the Remote Repository
       After a successful merge, push the updated `main` branch to GitHub:
       
-      ```
-      git push origin main
-      ```
+          git push origin main
+   
 
 ### 5. Submit a Pull Request (PR)
 In order to have your code accepted back into the original repo, you'll need to submit a pull request. 
