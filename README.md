@@ -21,6 +21,11 @@ In addition to reviewing your SQL knowledge, in this process you will also pract
 
 1. [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 2. [GitHub flow - GitHub Docs](https://docs.github.com/en/get-started/using-github/github-flow)
+3. [Learn Git Branching Interactive Tutorial](https://learngitbranching.js.org/)
+4. [Github Skills](https://skills.github.com/)
+5. [Git and Github Learning Resources](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources)
+6. [Pluralsight course: Git Real](https://app.pluralsight.com/library/courses/code-school-git-real/table-of-contents)
+7. [git - the simple guide](https://rogerdudler.github.io/git-guide/)
 
 ---
 
