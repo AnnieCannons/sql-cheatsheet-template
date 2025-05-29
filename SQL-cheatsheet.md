@@ -1,24 +1,53 @@
-# SQL Data Types Cheatsheet
+# PostgreSQL Cheatsheet
 
-## 1. INTEGER
+---
 
+## PostgreSQL Data Types
 
-## 2. NUMERIC
+### 1. `INTEGER` — assigned to Andy
 
+Description:
 
-## 3. SERIAL
+Example Values:
 
+### 2. `NUMERIC` — assigned to Bakari
 
-## 4. TEXT
+Description:
 
+Example Values:
 
-## 5. VARCHAR
+### 3. `SERIAL` — assigned to Lotta
 
+Description:
 
-## 6. BOOLEAN
+Example Values:
 
+### 4. `TEXT` — assigned to Cassy
 
-## 7. DATE
+Description:
 
+Example Values:
 
-## 8. TIMESTAMP
+### 5. `VARCHAR` — assigned to Dharshina
+
+Description:
+
+Example Values:
+
+### 6. `BOOLEAN` — assigned to Hunter
+
+Description:
+
+Example Values:
+
+### 7. `DATE` — assigned to Jolaine
+
+Description:
+
+Example Values:
+
+### 8. `TIMESTAMP` — assigned to Makeba
+
+Description:
+
+Example Values:
