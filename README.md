@@ -68,7 +68,7 @@ In addition to reviewing your SQL knowledge, in this process you will also pract
 
 ### 3. Edit the SQL-cheatsheet.md file in your `new-feature` branch
 
-1. You have been assigned a SQL clause in the SQL-cheatsheet.md file. This file is written in Markdown, which is a markup language used to create formatted text. Write a definition of your clause and a some example code of how you might use this clause. 
+1. You have been assigned a PostgreSQL data type in the SQL-cheatsheet.md file. This file is written in Markdown, which is a markup language used to create formatted text. Write a description and provide 2-3 example values of the PostgreSQL data type that you've been assigned. [Reference this Postgresql Data Types article](https://www.geeksforgeeks.org/postgresql-data-types/) to help you write your description and example values. 
 
 1. Once you have completed your new feature locally, commit your changes and push to your branch.
     
