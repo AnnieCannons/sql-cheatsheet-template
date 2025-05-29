@@ -2,7 +2,7 @@
 
 ---
 
-## PostgreSQL Constraints
+## ⚙️ PostgreSQL Constraints
 
 ### 1. `PRIMARY KEY`
 
@@ -18,7 +18,7 @@ Description: Ensures that all values in a column are different.
 
 ---
 
-## PostgreSQL Data Types
+## ⚙️ PostgreSQL Data Types
 
 ### 1. `INTEGER` — assigned to Andy
 
