@@ -1,25 +1,5 @@
 # PostgreSQL Cheatsheet
 
----
-
-## 💠 PostgreSQL Terminology 
-
-**1. SQL is...**
-a programming language designed to manipulate and manage data stored in relational databases
-
-**2. A relational database is...**
-a database that organizes information into one or more tables.
-
-**3. A clause is ...**
-a built-in function in SQL that performs a specific task. `SELECT`, `CREATE TABLE`, `FROM`, and `WHERE` are all examples of claues. By convention, clauses are written in capital letters. Clauses are also often called commands.
-
-**4. A constraint is...**
-a rule that limits the data type that can be stored in a column. This ensures the accuracy and reliability of the data in the table.
-
----
-
-## 💠 PostgreSQL Clauses
-
 ### 1. `SELECT` 
 
 **Description:** `SELECT *` returns all columns from the provided table. You can also do `SELECT column_name_1, column_name_2` to return specific columns from the provided table. 
