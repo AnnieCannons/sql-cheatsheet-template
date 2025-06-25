@@ -18,29 +18,13 @@ a rule that limits the data type that can be stored in a column. This ensures th
 
 ---
 
-## 💠 PostgreSQL Constraints 
-
-### 1. `PRIMARY KEY`
-
-Description: Specifies that this column uniquely identifies each row/record in a database table.	
-
-### 2. `NOT NULL`
-
-Description: Ensures that a column cannot have a NULL value.	
-
-### 3. `UNIQUE`
-
-Description: Ensures that all values in a column are different.	
-
----
-
 ## 💠 PostgreSQL Clauses
 
 ### 1. `SELECT` 
 
-Description: `SELECT *` returns all columns from the provided table. You can also do `SELECT column_name_1, column_name_2` to return specific columns from the provided table. 
+**Description:** `SELECT *` returns all columns from the provided table. You can also do `SELECT column_name_1, column_name_2` to return specific columns from the provided table. 
 
-Example:
+**Example:**
 ```sql
 SELECT *
 FROM movies;
@@ -48,9 +32,9 @@ FROM movies;
 
 ### 2. `CREATE TABLE` 
 
-Description: `CREATE TABLE` creates a new table in a database. It allows one to specify the name of the table, the name of each column, and each column's data type in the table.
+**Description:** `CREATE TABLE` creates a new table in a database. It allows one to specify the name of the table, the name of each column, and each column's data type in the table.
 
-Example:
+**Example:**
 ```sql
 CREATE TABLE friends (
   friend_id SERIAL PRIMARY KEY,
@@ -61,51 +45,54 @@ CREATE TABLE friends (
 
 ### 3. `INSERT INTO` — assigned to Andy 
 
-Description:
+**Description:**
 
-Example:
+**Example:**
 ```sql
 
 ```
 
 ### 4. `UPDATE` — assigned to Bakari
 
-Description:
+**Description:**
 
-Example:
+**Example:**
 ```sql
 
 ```
+
 ### 5. `DELETE FROM` — assigned to Cassy
 
-Description:
+**Description:**
 
-Example:
+**Example:**
 ```sql
 
 ```
+
 ### 6. `GROUP BY` — assigned to Dharshina
 
-Description:
+**Description:**
 
-Example:
+**Example:**
 ```sql
 
 ```
+
 ### 7. `ORDER BY` — assigned to Hunter
 
-Description:
+**Description:**
 
-Example:
+**Example:**
 ```sql
 
 ```
 
 ### 8. `INNER JOIN` — assigned to Makeba
 
-Description:
+**Description:**
 
-Example:
+**Example:**
 ```sql
 
 ```
