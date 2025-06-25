@@ -2,6 +2,22 @@
 
 ---
 
+## 💠 PostgreSQL Terminology 
+
+**1. SQL is...**
+a programming language designed to manipulate and manage data stored in relational databases
+
+**2. A relational database is...**
+a database that organizes information into one or more tables.
+
+**3. A clause is ...**
+a built-in function in SQL that performs a specific task. `SELECT`, `CREATE TABLE`, `FROM`, and `WHERE` are all examples of claues. By convention, clauses are written in capital letters. Clauses are also often called commands.
+
+**4. A constraint is...**
+a rule that limits the data type that can be stored in a column. This ensures the accuracy and reliability of the data in the table.
+
+---
+
 ## 💠 PostgreSQL Constraints 
 
 ### 1. `PRIMARY KEY`
@@ -18,52 +34,78 @@ Description: Ensures that all values in a column are different.
 
 ---
 
-## 💠 PostgreSQL Data Types 
+## 💠 PostgreSQL Clauses
 
-### 1. `INTEGER` — assigned to Andy
+### 1. `SELECT` 
 
-Description:
+Description: `SELECT *` returns all columns from the provided table. You can also do `SELECT column_name_1, column_name_2` to return specific columns from the provided table. 
 
-Example Values:
+Example:
+```sql
+SELECT *
+FROM movies;
+```
 
-### 2. `DECIMAL` — assigned to Bakari
+### 2. `CREATE TABLE` 
 
-Description:
+Description: `CREATE TABLE` creates a new table in a database. It allows one to specify the name of the table, the name of each column, and each column's data type in the table.
 
-Example Values:
+Example:
+```sql
+CREATE TABLE friends (
+  friend_id SERIAL PRIMARY KEY,
+  name TEXT,
+  birthday DATE
+);
+```
 
-### 3. `SERIAL` — assigned to Lotta
-
-Description:
-
-Example Values:
-
-### 4. `TEXT` — assigned to Cassy
-
-Description:
-
-Example Values:
-
-### 5. `VARCHAR` — assigned to Dharshina
-
-Description:
-
-Example Values:
-
-### 6. `BOOLEAN` — assigned to Hunter
+### 3. `INSERT INTO` — assigned to Andy 
 
 Description:
 
-Example Values:
+Example:
+```sql
 
-### 7. `DATE` — assigned to Jolaine
+```
 
-Description:
-
-Example Values:
-
-### 8. `TIMESTAMP` — assigned to Makeba
+### 4. `UPDATE` — assigned to Bakari
 
 Description:
 
-Example Values:
+Example:
+```sql
+
+```
+### 5. `DELETE FROM` — assigned to Cassy
+
+Description:
+
+Example:
+```sql
+
+```
+### 6. `GROUP BY` — assigned to Dharshina
+
+Description:
+
+Example:
+```sql
+
+```
+### 7. `ORDER BY` — assigned to Hunter
+
+Description:
+
+Example:
+```sql
+
+```
+
+### 8. `INNER JOIN` — assigned to Makeba
+
+Description:
+
+Example:
+```sql
+
+```
