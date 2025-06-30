@@ -47,9 +47,13 @@ CREATE TABLE friends (
 
 **Description:**
 
+The update statement modefies existing dara that is recorded in a table.
+
 **Example:**
 ```sql
-
+update my_table set user_name = some_new_value;
+-- or
+update table1 set column_name = value where (condition)
 ```
 
 ### 5. `DELETE FROM` — assigned to Cassy
