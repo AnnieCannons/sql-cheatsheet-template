@@ -5,8 +5,9 @@ Each student will complete the Description and Example sections for the SQL clau
 For each clause:
 
 1. In the **Description**, explain what the clause does in plain language.
-2. In the **Example**, write a working SQL statement that shows how the clause is used (like the `SELECT and `CREATE TABLE` examples below).
-3. As a reference, `SELECT` and `CREATE TABLE` are already done for you.
+2. In the **Example**, write a working SQL statement that shows how the clause is used (like the `SELECT` and `CREATE TABLE` examples below).
+3. As a reference, `SELECT` and `CREATE TABLE` are already done for you. 
+   
 
 ---
 
