@@ -81,24 +81,27 @@ In addition to reviewing your SQL knowledge, in this process you will also pract
 ### 4. Merging the new-feature branch into your main branch
 
 
-1. Switch to the Target Branch (e.g., `main`)
+1. **Switch to the Target Branch (e.g., `main`)**
+   
       Run the following command to switch to the branch you want to merge into:
       
           
           git checkout main
           
 
-2. Update the Target Branch
+3. **Update the Target Branch**
+   
       Make sure your `main` branch is up-to-date with the latest changes from the remote:
           
           git pull origin main
 
-3. Merge the Specified Branch into the Current branch
+5. **Merge the Specified Branch into the Current branch**
       
           git merge new-feature
       
 
-4. Push the Merged Changes to the Remote Repository
+6. **Push the Merged Changes to the Remote Repository**
+   
       After a successful merge, push the updated `main` branch to GitHub:
       
           git push origin main
