@@ -31,10 +31,16 @@ In addition to reviewing your SQL knowledge, in this process you will also pract
 
 ## Instructions
 
-### 1. Forking this Github repo
+### 1. Forking and Cloning this Github repo
 
-1. Fork this Repository to make a copy into your Github account
-2. Clone the Repository into your local machine
+1. Fork this Repository to make a copy into your Github account by selecting the 'Fork' button
+   <img width="707" alt="Screenshot of Github repo with Fork button" src="https://github.com/user-attachments/assets/0f6a1ddf-60d2-4e63-859c-b84bfaafacde" />
+
+2. Confirm you forked the repo. At the top of the repo's page, instead of `AnnieCannons` like in the below screenshot, you should see your own Github username followed by the name of the repo. 
+    <img width="1221" alt="Screenshot of Github header with the user's username (AnnieCannons) followed by name of the repo, sql-cheatsheet" src="https://github.com/user-attachments/assets/225a152c-32c0-40c0-8778-157380bae6a2" />
+
+
+4. Clone the Repository into your local machine
     - Go to your Github repo's page on GitHub. Click on the green “Code” button and copy the repo's URL
         ![image](https://github.com/user-attachments/assets/fd6fcf7f-9246-42da-80be-0c4d75c3f48a)
 
