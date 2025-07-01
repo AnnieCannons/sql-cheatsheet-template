@@ -98,8 +98,9 @@ JOIN authors
   ON books.author_id = authors.id;
 ```
 
-**Outer Join
-An outer join will combine rows from different tables even if the join condition is not met. In a LEFT JOIN, every row in the left table is returned in the result set, and if the join condition is not met, then NULL values are used to fill in the columns from the right table.**
+### `OUTER JOIN` -
+
+**An OUTER JOIN will combine rows from different tables even if the join condition is not met. In a `LEFT JOIN`, every row in the left table is returned in the result set, and if the join condition is not met, then NULL values are used to fill in the columns from the right table.**
 
 **Example:**
 
