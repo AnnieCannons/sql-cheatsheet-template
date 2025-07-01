@@ -31,10 +31,16 @@ In addition to reviewing your SQL knowledge, in this process you will also pract
 
 ## Instructions
 
-### 1. Forking this Github repo
+### 1. Forking and Cloning this Github repo
 
-1. Fork this Repository to make a copy into your Github account
-2. Clone the Repository into your local machine
+1. Fork this Repository to make a copy into your Github account by selecting the 'Fork' button
+   <img width="707" alt="Screenshot of Github repo with Fork button" src="https://github.com/user-attachments/assets/0f6a1ddf-60d2-4e63-859c-b84bfaafacde" />
+
+2. Confirm you forked the repo. At the top of the repo's page, instead of `AnnieCannons` like in the below screenshot, you should see your own Github username followed by the name of the repo. 
+    <img width="1221" alt="Screenshot of Github header with the user's username (AnnieCannons) followed by name of the repo, sql-cheatsheet" src="https://github.com/user-attachments/assets/225a152c-32c0-40c0-8778-157380bae6a2" />
+
+
+4. Clone the Repository into your local machine
     - Go to your Github repo's page on GitHub. Click on the green “Code” button and copy the repo's URL
         ![image](https://github.com/user-attachments/assets/fd6fcf7f-9246-42da-80be-0c4d75c3f48a)
 
@@ -81,24 +87,27 @@ In addition to reviewing your SQL knowledge, in this process you will also pract
 ### 4. Merging the new-feature branch into your main branch
 
 
-1. Switch to the Target Branch (e.g., `main`)
+1. **Switch to the Target Branch (e.g., `main`)**
+   
       Run the following command to switch to the branch you want to merge into:
       
           
           git checkout main
           
 
-2. Update the Target Branch
+3. **Update the Target Branch**
+   
       Make sure your `main` branch is up-to-date with the latest changes from the remote:
           
           git pull origin main
 
-3. Merge the Specified Branch into the Current branch
+5. **Merge the Specified Branch into the Current branch**
       
           git merge new-feature
       
 
-4. Push the Merged Changes to the Remote Repository
+6. **Push the Merged Changes to the Remote Repository**
+   
       After a successful merge, push the updated `main` branch to GitHub:
       
           git push origin main
@@ -107,7 +116,7 @@ In addition to reviewing your SQL knowledge, in this process you will also pract
 ### 5. Submit a Pull Request (PR)
 In order to have your code accepted back into the original repo, you'll need to submit a pull request. 
 
-1. Open your repository on the Github website
+1. Open **your** repository on the Github website
 2. Click on the Pull Requests tab
 3. Start a New Pull Request
 5. Select the Branches to Compare
@@ -125,13 +134,13 @@ In order to have your code accepted back into the original repo, you'll need to 
   
 ### 5. Review, Provide Feedback, and Accept another person's Pull Request
 
-1. Review one other person's pull request and look at their code that they want to merge into the main branch. [The Github documentation on pull requests will help you learn how to do this.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews)
+1. Review one other person's pull request and look at their code that they want to merge into the main branch. [The Github documentation on pull requests will help you do this.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews)
 2. Add a comment to their pull request and provide feedback about their proposed changes. This is an opportunity to practice talking about code and giving respectful and constructive feedback: if you notice something cool or admirable, tell them! Or if you notice something they can improve or something they should fix before the pull request can be approved, let them know. 
 3. If their code looks good to you, approve their pull request so that their code can be merged.
 
 ### If you get a merge conflict error
 ![image](https://github.com/user-attachments/assets/7aa14ba9-cb3c-4cab-8832-18ffdbe2ccc2)
-Congrats on encountering your very first merge conflict error! Very cool 🎉 [Check out this article to see how you can fix it](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github)! 
+Congrats on encountering your very first merge conflict error! 🎉 [Check out this article to see how you can resolve it](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github)! 
 
 ## Recap
 
