@@ -110,7 +110,7 @@ In addition to reviewing your SQL knowledge, in this process you will also pract
 ### 5. Submit a Pull Request (PR)
 In order to have your code accepted back into the original repo, you'll need to submit a pull request. 
 
-1. Open your repository on the Github website
+1. Open **your** repository on the Github website
 2. Click on the Pull Requests tab
 3. Start a New Pull Request
 5. Select the Branches to Compare
@@ -128,13 +128,13 @@ In order to have your code accepted back into the original repo, you'll need to 
   
 ### 5. Review, Provide Feedback, and Accept another person's Pull Request
 
-1. Review one other person's pull request and look at their code that they want to merge into the main branch. [The Github documentation on pull requests will help you learn how to do this.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews)
+1. Review one other person's pull request and look at their code that they want to merge into the main branch. [The Github documentation on pull requests will help you do this.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews)
 2. Add a comment to their pull request and provide feedback about their proposed changes. This is an opportunity to practice talking about code and giving respectful and constructive feedback: if you notice something cool or admirable, tell them! Or if you notice something they can improve or something they should fix before the pull request can be approved, let them know. 
 3. If their code looks good to you, approve their pull request so that their code can be merged.
 
 ### If you get a merge conflict error
 ![image](https://github.com/user-attachments/assets/7aa14ba9-cb3c-4cab-8832-18ffdbe2ccc2)
-Congrats on encountering your very first merge conflict error! Very cool 🎉 [Check out this article to see how you can fix it](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github)! 
+Congrats on encountering your very first merge conflict error! 🎉 [Check out this article to see how you can resolve it](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github)! 
 
 ## Recap
 
