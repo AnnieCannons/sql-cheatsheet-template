@@ -78,10 +78,15 @@ CREATE TABLE friends (
 ### 7. `ORDER BY` — assigned to Hunter
 
 **Description:**
+`SELECT name, birth_date FROM stuudents` returns the `name` and `birth_date` columns from the `stuudents` TABLE. `ORDER BY birth_date DESC` looks at the `birth_date` column and puts it in decending order. This means the oldest will be the first on the list.
 
 **Example:**
 
 ```sql
+
+SELECT name, birth_date
+FROM students
+ORDER BY birth_date DESC;
 
 ```
 
