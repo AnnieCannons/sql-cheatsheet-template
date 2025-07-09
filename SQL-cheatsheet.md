@@ -116,14 +116,17 @@ LEFT JOIN table2
   ON table1.column_name = table2.column_name;
 ```
 
-### 9. `LIMIT` — assigned to Lotta
+### 9. `LIMIT`
 
 **Description:**
+The LIMIT clause is used to narrow, or limit, a result set to the specified number of rows. The given query will limit the result set to 5 rows.
 
 **Example:**
 
 ```sql
-
+SELECT *
+FROM movies
+LIMIT 5;
 ```
 
 ### 10. `LIKE`
