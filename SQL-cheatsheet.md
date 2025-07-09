@@ -4,10 +4,19 @@ Each student will complete the Description and Example sections for the SQL clau
 
 For each clause:
 
-1. In the **Description**, explain what the clause does in plain language.
+1. In the **Description**, explain what the clause does in plain language.main
+2. In the **Example**, write a working SQL statement that shows how the clause is used (like the `SELECT and `CREATE TABLE` examples below).
+3. As a reference, `SELECT` and `CREATE TABLE` are already done for you.
+
+---
+
+### 1. `SELECT`
+
+
 2. In the **Example**, write a working SQL statement that shows how the clause is used (like the `SELECT` and `CREATE TABLE` examples below).
 3. As a reference, `SELECT` and `CREATE TABLE` are already done for you. 
    
+ main
 **Description:** `SELECT *` returns all columns from the provided table. You can also do `SELECT column_name_1, column_name_2` to return specific columns from the provided table.
 
 **Example:**
@@ -48,6 +57,7 @@ CREATE TABLE friends (
 The update statement modefies existing dara that is recorded in a table.
 
 **Example:**
+
 ```sql
 update my_table set user_name = some_new_value;
 -- or
@@ -57,11 +67,17 @@ update table1 set column_name = value where (condition)
 ### 5. `DELETE FROM` — assigned to Cassy
 
 **Description:**
-
+this is used to remove one or more rows from a table with givin condtions and you can also use WHERE but it will deleate all rows from table
 **Example:**
+ main
+
 
 ```sql
+ main
 
+```sql
+DELETE FROM Members
+WHERE surname = 'Captain Underpants';
 ```
 
 ### 6. `GROUP BY` — assigned to Dharshina
@@ -69,6 +85,7 @@ update table1 set column_name = value where (condition)
 **Description:**
 The SQL GROUP BY clause is used to organize rows in a table that have the same values in specified columns into groups. This is particularly useful when combined with aggregate functions like COUNT(), SUM(), AVG(), MIN(), and MAX() to perform calculations on each group.
 **Example:**
+
 ```sql
 SELECT colors, COUNT(*) AS number_of_socks
 FROM socks
