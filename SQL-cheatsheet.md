@@ -162,3 +162,5 @@ WHERE name LIKE 'Star%';
 ```
 
 The given query will match any movie that begins with Star in its title.
+
+** 💚 You are forever loved! 💚 **
