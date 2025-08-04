@@ -16,7 +16,7 @@ For each clause:
 2. In the **Example**, write a working SQL statement that shows how the clause is used (like the `SELECT` and `CREATE TABLE` examples below).
 3. As a reference, `SELECT` and `CREATE TABLE` are already done for you. 
    
- main
+
 **Description:** `SELECT *` returns all columns from the provided table. You can also do `SELECT column_name_1, column_name_2` to return specific columns from the provided table.
 
 **Example:**
@@ -42,12 +42,13 @@ CREATE TABLE friends (
 
 ### 3. `INSERT INTO` — assigned to Andy
 
-**Description:**
+**Description:** `INSERT INTO` is used to add new rows of data to a table. Used with VALUES, which specifies the data in the rows to be added.
 
 **Example:**
 
 ```sql
-
+INSERT INTO mytable (col1, col2, col3, col4, col5)
+VALUES (val1, val2, val3, val4, val5), (val_1, val_2, val_3, val_4, val_5);
 ```
 
 ### 4. `UPDATE` — assigned to Bakari
@@ -57,6 +58,7 @@ CREATE TABLE friends (
 The update statement modefies existing dara that is recorded in a table.
 
 **Example:**
+
 
 ```sql
 update my_table set user_name = some_new_value;
@@ -69,7 +71,6 @@ update table1 set column_name = value where (condition)
 **Description:**
 this is used to remove one or more rows from a table with givin condtions and you can also use WHERE but it will deleate all rows from table
 **Example:**
- main
 
 
 ```sql
@@ -85,6 +86,7 @@ WHERE surname = 'Captain Underpants';
 **Description:**
 The SQL GROUP BY clause is used to organize rows in a table that have the same values in specified columns into groups. This is particularly useful when combined with aggregate functions like COUNT(), SUM(), AVG(), MIN(), and MAX() to perform calculations on each group.
 **Example:**
+
 
 ```sql
 SELECT colors, COUNT(*) AS number_of_socks
