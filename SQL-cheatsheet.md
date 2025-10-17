@@ -35,7 +35,7 @@ CREATE TABLE friends (
 );
 ```
 
-### 3. `INSERT INTO` — assigned to _____
+### 3. `INSERT INTO` — assigned to Deja
 
 **Description:** 
 
@@ -45,7 +45,7 @@ CREATE TABLE friends (
 
 ```
 
-### 4. `UPDATE` — assigned to _____
+### 4. `UPDATE` — assigned to Rucha
 
 **Description:**
 
@@ -55,7 +55,7 @@ CREATE TABLE friends (
 
 ```
 
-### 5. `DELETE FROM` — assigned to _____
+### 5. `DELETE FROM` — assigned to Lajoie
 
 **Description:**
 
@@ -65,7 +65,7 @@ CREATE TABLE friends (
 
 ```
 
-### 6. `GROUP BY` — assigned to _____
+### 6. `GROUP BY` — assigned to Rachel
 
 **Description:**
 
@@ -75,7 +75,7 @@ CREATE TABLE friends (
 
 ```
 
-### 7. `ORDER BY` — assigned to _____
+### 7. `ORDER BY` — assigned to Tamara
 
 **Description:**
 
@@ -85,7 +85,7 @@ CREATE TABLE friends (
 
 ```
 
-### 8. `INNER JOIN` — assigned to _____
+### 8. `INNER JOIN` — assigned to Nicole
 
 **Description:**
 
@@ -95,7 +95,7 @@ CREATE TABLE friends (
 
 ```
 
-### 9. `LIMIT` — assigned to _____
+### 9. `LIMIT` — assigned to Xavier
 
 **Description:**
 
@@ -105,7 +105,7 @@ CREATE TABLE friends (
 
 ```
 
-### 10. `LIKE` — assigned to _____
+### 10. `ON CONFLICT` — assigned to _____
 
 **Description:**
 
@@ -115,7 +115,7 @@ CREATE TABLE friends (
 
 ```
 
-### 11. `ON CONFLICT` — assigned to _____
+### 11. `LIKE` — assigned to _____
 
 **Description:**
 
@@ -124,4 +124,3 @@ CREATE TABLE friends (
 ```sql
 
 ```
-
