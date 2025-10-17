@@ -30,7 +30,7 @@ FROM movies;
 ```sql
 CREATE TABLE friends (
   friend_id SERIAL PRIMARY KEY,
-  name TEXT,
+  name VARCHAR,
   birthday DATE
 );
 ```
