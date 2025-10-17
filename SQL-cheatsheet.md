@@ -115,3 +115,13 @@ CREATE TABLE friends (
 
 ```
 
+### 11. `ON CONFLICT` — assigned to _____
+
+**Description:**
+
+**Example:**
+
+```sql
+
+```
+
