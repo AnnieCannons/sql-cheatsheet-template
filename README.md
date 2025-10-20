@@ -139,7 +139,6 @@ In order to have your code accepted back into the original repo, you'll need to 
 3. If their code looks good to you, approve their pull request so that their code can be merged.
 
 ### If you get a merge conflict error
-![image](https://github.com/user-attachments/assets/7aa14ba9-cb3c-4cab-8832-18ffdbe2ccc2)
 Congrats on encountering your very first merge conflict error! 🎉 [Check out this article to see how you can resolve it](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github)! 
 
 ## Recap
